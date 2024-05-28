@@ -1,0 +1,115 @@
+/* src/App.css */
+body {
+  font-family: 'Tajawal', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  direction: rtl;
+  text-align: center;
+}
+.App-header img {
+  width: 100%;
+  max-width: 600px;
+  align-self: center;
+  margin-bottom: 12px;
+}
+.App-header h1 {
+  color: #3c3e91;
+  font-size: 2.5rem;
+}
+.App-header h3 {
+  font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .App-header h1 {
+      font-size: 2rem;
+  }
+  .App-header h3 {
+      font-size: 1.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .App-header h1 {
+      font-size: 1.75rem;
+  }
+  .App-header h3 {
+      font-size: 1rem;
+  }
+}
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: right;
+  color: black; /* Ensure text color is black */
+}
+.section.centered {
+  text-align: center;
+}
+.section h2, .section h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black; /* Ensure header text color is black */
+}
+
+.section p {
+  margin: 0;
+  margin-bottom: 10px;
+  color: black; /* Ensure paragraph text color is black */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+  color: black; /* Ensure table text color is black */
+}
+th {
+  background-color: #3c3e91;
+  color: #fff; /* Ensure table header text color is white */
+  font-size: 22px;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+.footer {
+  margin-top: 8px;
+  margin-bottom: 22px;
+  text-align: center;
+  font-family: 'Tajawal', 'Inter', sans-serif;
+  color: #3C3E92;
+  font-weight: 200;
+  font-size: 14px;
+}
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.lecturer {
+  display: block;
+  font-weight: bold;
+}
